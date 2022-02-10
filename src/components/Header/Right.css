@@ -1,0 +1,34 @@
+.headerRight, .headerRight .userAndName{
+    display: flex;
+    align-items: center;
+}
+
+.userAndName .user{
+    width: 30px;
+    height: 30px;
+    background-color: #e91616;
+    border-radius: 999px;
+    margin: 0 10px;
+    border: 2px solid #860d0d;
+    cursor: pointer;
+}
+.userAndName .Name{
+    font-weight: bold;
+    cursor: pointer;
+}
+.userAndName {
+    margin-right: 10px;
+}
+.headerRight li{
+    background-color: #eee;
+    border-radius: 999px;
+    line-height: 100%;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: #333;
+}
+.headerRight li:hover{
+    color: #858383;
+}

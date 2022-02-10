@@ -1,0 +1,28 @@
+.story{
+    width: 100px;
+    height: 150px;
+    background-color: #323a55;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 10px;
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+.story:hover{
+    transform: scale(1.07);
+}
+.story .user{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #2517e0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.story h4{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+}

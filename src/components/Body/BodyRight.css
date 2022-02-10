@@ -1,0 +1,8 @@
+.bodyRight{
+    width: 200px;
+    margin-top: 10px;
+}
+.bodyRight .up{
+    border-bottom: 1px solid #b8b0b0;
+    padding-bottom: 10px;
+}

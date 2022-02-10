@@ -1,0 +1,46 @@
+.storyReel{
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+.storyReel .createStory{
+    width: 100px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.storyReel .rightArr{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    right: -15px;
+    top: 40%;
+    z-index: 55;
+    font-size: 30px;
+}
+.createStory .img{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.createStory .user{
+    font-size: 30px;
+    color: #2517e0;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    bottom: 17%;
+    left: 30%;
+}
+
+.createStory h4{
+    position: absolute;
+    font-size: 13px;
+    bottom: 5px;
+    left:10px;
+}

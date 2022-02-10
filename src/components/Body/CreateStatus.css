@@ -1,0 +1,41 @@
+.createStatus{
+    box-shadow: 1px 3px 3px #9c9a9a,-1px -3px 3px #fff;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.createStatus .user{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(20, 176, 238);
+}
+.createStatus .up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(184, 171, 171);
+}
+.createStatus .up input{
+    border-radius: 999px;
+    padding: 8px 10px;
+    width: 91%;
+}
+.createStatus .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.createStatus .bottom .icAndName{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.createStatus .bottom .icAndName .ic{
+    font-size: 20px;
+    margin-right: 5px;
+}

@@ -1,0 +1,41 @@
+.bodyLeft{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 200px;
+}
+.bodyLeft .uAndN{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.bodyLeft .uAndN .u{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:#e61414;
+    border: 2px solid #520808;
+    margin-right: 10px;
+}
+.bodyLeft ul{
+    flex-direction: column !important;
+}
+.bodyLeft li{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bodyLeft li:hover{
+    background-color: #c0bcbc;
+}
+.bodyLeft li .icon{
+    font-size: 20px;
+    margin-right:14px ;
+}
+.bodyLeftup {
+    border-bottom: 1px solid #c0bcbc;
+}

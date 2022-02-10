@@ -1,0 +1,23 @@
+.headerMiddle a{
+    font-size: 20px;
+    color: gray;
+    padding: 10px 30px;
+    display: flex;
+}
+.headerMiddle a:hover{
+    background-color: #eee;
+    color: #333;
+    border-radius: 9px;
+}
+.headerMiddle a.active{
+    color: #4d3fd1;
+    border-bottom: 3px solid #4d3fd1;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: none;
+}
+@media (max-width:765px) {
+    .headerMiddle{
+        display: none;
+    }
+}

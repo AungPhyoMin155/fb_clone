@@ -1,0 +1,38 @@
+.headerLeft{
+    display: flex;
+    align-items: center;
+}
+.headerLeft .facebook {
+    color: #4d3fd1;
+    font-size: 40px;
+}
+.search{
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 999px;
+    background-color: #dfd7d7;
+    margin-left: 10px;
+    cursor: pointer;
+    display: none;
+}
+.searchBox {
+    background-color: #dfd7d7;
+    display: flex;
+    border-radius: 999px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.searchBox input{
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-left: 10px;
+}
+@media (max-width:865px) {
+    .searchBox{
+        display: none;
+    }
+    .active{
+        display: block!important;
+    }
+}

@@ -1,0 +1,19 @@
+.body{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: #eee;
+}
+@media (max-width:1000px) {
+    .body .left{
+        display: none;
+    }
+}
+@media (max-width:800px) {
+    .body .right{
+        display: none;
+    }
+    .body{
+        justify-content: center;
+    }
+}
