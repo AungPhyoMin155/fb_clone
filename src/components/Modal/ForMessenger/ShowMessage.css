@@ -1,0 +1,29 @@
+.showMessage .userAndMessage{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: small;
+}
+.showMessage .userAndMessage:hover{
+    background-color: #eee;
+}
+.showMessage .userAndMessage .user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    margin-right: 10px;
+
+}
+.showMessage .userAndMessage .message{
+    display: flex;
+    flex-direction: column;
+}
+.showMessage .message .mAndTime{
+    display: flex;
+}
+.showMessage .message .mAndTime .m{
+    margin-right: 10px;
+}

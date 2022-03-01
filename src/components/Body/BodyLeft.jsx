@@ -1,9 +1,10 @@
 import React from 'react'
 import "./BodyLeft.css";
 import { FaUserFriends } from "react-icons/fa";
-import { BsCalendarCheck, BsSaveFill, BsStopwatch } from "react-icons/bs";
+import { BsCalendarCheck, BsStopwatch } from "react-icons/bs";
 import { MdGroups, MdOndemandVideo, MdOutlineArrowDropDownCircle } from 'react-icons/md';
 import { ImFlag } from 'react-icons/im';
+import { HiBookmark } from 'react-icons/hi';
 
 
 function BodyLeft() {
@@ -12,7 +13,7 @@ function BodyLeft() {
         <div className="bodyLeftup">
             <div className="uAndN">
                 <div className="u"></div>
-                <h4>Phyo Lay</h4>
+                <h4>Ap Min</h4>
             </div>
             <ul>
                 <li>
@@ -20,7 +21,7 @@ function BodyLeft() {
                     <h4>Friends</h4>
                 </li>
                 <li>
-                    <BsSaveFill className='icon' />
+                    <HiBookmark className='icon' />
                     <h4>Saved</h4>
                 </li>
                 <li>

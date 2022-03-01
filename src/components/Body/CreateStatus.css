@@ -34,8 +34,12 @@
     display: flex;
     align-items: center;
     margin-left: 10px;
+    cursor: pointer;
 }
 .createStatus .bottom .icAndName .ic{
     font-size: 20px;
     margin-right: 5px;
+}
+.createStatus button{
+    display: none;
 }

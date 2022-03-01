@@ -1,0 +1,41 @@
+.modalMessenger{
+    position: absolute;
+    background-color:#fff;
+    top: 55px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #c5c1c1, -1px -1px 1px #c5c1c1;
+}
+.modalMessenger .header{
+    box-shadow: none;
+}
+.modalMessenger .header .headerRight{
+    margin-left: 30px;
+}
+.modalMessenger .header .icon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.modalMessenger .searchMessenger{
+    padding: 10px;
+    border-radius: 999px;
+    background-color:#eee;
+    display: flex;
+}
+.modalMessenger .searchMessenger input{
+    background-color: transparent;
+    margin-left: 10px;
+}
+.modalMessenger .modalMessengerFooter{
+    text-align: center;
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+    color: #3535ec;
+    cursor: pointer;
+    font-weight: 600;
+}
+.modalMessenger .modalMessengerFooter:hover{
+    color: #666565;
+    text-decoration:underline;
+}

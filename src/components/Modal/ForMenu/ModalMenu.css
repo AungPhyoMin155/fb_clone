@@ -1,0 +1,87 @@
+.modalMenu .social .div,.gamingVideos .div{
+    display:flex;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+.modalMenu .social .div:hover,.gamingVideos .div:hover{
+    background-color: #ddd;
+}
+.social .icon ,.gamingVideos .icon{
+    font-size: 30px;
+    margin-right: 10px;
+    
+}
+.modalMenu .cardBoxLeft{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 3px 3px #9c9a9a,-1px -1px 1px #9c9a9a;
+    border-radius: 10px;
+}
+.cardBoxLeft .searchMenu{
+    background-color: #eee;
+    width: 100%;
+    border-radius: 999px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.social h3 , .social .div ,.entertainment h3,.gamingVideos .div{
+    margin-bottom: 10px;
+}
+.social{
+    border-bottom: 1px solid #aca8a8;
+    margin-bottom: 10px;
+}
+.cardBoxLeft .searchMenu input{
+    margin-left: 5px;
+    background-color: transparent;
+}
+.modalMenu{
+    position: absolute;
+    right: 10px;
+    top: 55px;
+    padding: 10px;
+    box-shadow: 1px 3px 3px #9c9a9a,-1px -1px 1px #9c9a9a;
+    z-index: 77;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modalMenu .cardBox{
+    display: flex;
+}
+.modalMenu .cardBoxRight{
+    padding: 10px;
+    box-shadow: 1px 3px 3px #9c9a9a,-1px -1px 1px #9c9a9a;
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 380px;
+}
+.modalMenu .cardBoxRight h3{
+    margin-bottom: 20px;
+}
+
+.cardBoxRight .div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+.cardBoxRight .div:hover{
+    background-color: #ddd;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.cardBoxRight .createUp{
+    border-bottom: 1px solid #aca8a8 ;
+    margin-bottom: 10px;
+}
+.cardBoxRight .div .icon{
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    padding: 3px;
+    font-size: 30px;
+}
